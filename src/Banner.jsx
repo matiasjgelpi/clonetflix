@@ -37,7 +37,7 @@ const Banner = () => {
     >
       <div className="banner_contents">
         <h1 className="banner_title">
-          {movie?.title || movie?.name || movie?.origial_name}
+          {movie?.title || movie?.name || movie?.original_name}
         </h1>
         <div className="banner_buttons">
           <button className="banner_button">Play</button>
